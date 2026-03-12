@@ -15,6 +15,17 @@ This SOP will layout security group polices for workstations and implement basic
 
 - <b> In Server Manager, select the Tools drop down and open Group Policy Management</b>
 - <b> Under mydomain.com, use the drop down arrow to Group Policy Objects. Right click on Default Domain Policy to edit</b>
+<div align="left">
+  <table>
+    <tr>
+      <td><img width="400" src="https://github.com/connorpj-tech/Implementing-Group-Policy/blob/main/Group%20Policy%20Management.png"/></td>
+      <td><img width="400" src="https://github.com/connorpj-tech/Implementing-Group-Policy/blob/main/Default%20Domain%20Policy.png"/></td>
+    </tr>
+       <td align="center"><b>Group Policy </b></td>
+       <td align="center"><b>Default Domain Policy</b></td>
+       </tr>
+  </table>
+</div>
 
 **2. Configure Account Lockout Policy**
 
