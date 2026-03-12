@@ -1,4 +1,4 @@
-<h1>Creating Group Policy</h1>
+<h1>Implementing Security Group Policy</h1>
 
 <h2>Objective</h2>
 This SOP will layout security group polices for workstations and implement basic security for the Windows Server and Clients associated with the Active Directory Domain Controller
