@@ -35,6 +35,17 @@ This SOP will layout security group polices for workstations and implement basic
 - <b> Click Account lockout threshold to lock out accounts after 5 invalid login attempts</b>
 - <b> Click Reset account lockout counter to reset accounts after 30 mintutes after they have been locked out</b>
 - <b> Click apply to save settings
+<div align="left">
+  <table>
+    <tr>
+      <td><img width="400" src="https://github.com/connorpj-tech/Implementing-Group-Policy/blob/main/Group%20Policy%20Management.png"/></td>
+      <td><img width="400" src="https://github.com/connorpj-tech/Implementing-Group-Policy/blob/main/Default%20Domain%20Policy.png"/></td>
+    </tr>
+       <td align="center"><b>Group Policy </b></td>
+       <td align="center"><b>Default Domain Policy</b></td>
+       </tr>
+  </table>
+</div>
 
 **3. Set Password Policy for Users**
 
