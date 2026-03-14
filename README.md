@@ -38,11 +38,15 @@ This SOP will layout security group polices for workstations and implement basic
 <div align="left">
   <table>
     <tr>
-      <td><img width="400" src="https://github.com/connorpj-tech/Implementing-Group-Policy/blob/main/Group%20Policy%20Management.png"/></td>
-      <td><img width="400" src="https://github.com/connorpj-tech/Implementing-Group-Policy/blob/main/Default%20Domain%20Policy.png"/></td>
+      <td><img width="400" src="https://github.com/connorpj-tech/Implementing-Group-Policy/blob/main/Account%20Lockout%20Policy.png"/></td>
+      <td><img width="400" src="https://github.com/connorpj-tech/Implementing-Group-Policy/blob/main/Duration.png"/></td>
+      <td><img width="400" src="https://github.com/connorpj-tech/Implementing-Group-Policy/blob/main/Thresold.png"/></td>
+      <td><img width="400" src="https://github.com/connorpj-tech/Implementing-Group-Policy/blob/main/Lockout%20Counter.png"/></td>
     </tr>
-       <td align="center"><b>Group Policy </b></td>
-       <td align="center"><b>Default Domain Policy</b></td>
+       <td align="center"><b>Account Lockout Policy</b></td>
+       <td align="center"><b>Lockout Duration</b></td>
+       <td align="center"><b>Lockout Thresold</b></td>
+       <td align="center"><b>Lockout Counter</b></td>
        </tr>
   </table>
 </div>
@@ -56,10 +60,31 @@ This SOP will layout security group polices for workstations and implement basic
   - <b> Minimum password age: 1 day
   - <b> Minimum password length: 12 characters
   - <b> Enable password must meet complexity requirements
-- <b> Click apply to enforce the new password requirements for users
+  - <b> Click apply to enforce the new password requirements for users
+ <div align="left">
+  <table>
+    <tr>
+      <td><img width="400" src="https://github.com/connorpj-tech/Implementing-Group-Policy/blob/main/Password%20Policy.png"/></td>
+    </tr>
+       <td align="center"><b>Password Policy</b></td>
+       </tr>
+  </table>
+</div> 
  
 **4. Disabe Removable Storage Access**
 
 - <b> In Group Policy Editor, use the drop down menu Computer Configuration>Policies>Administrative Templates>System>Removable Storage Access
 - <b> Select All Removable Storage classes: Deny All Access
 - <b> Click apply to deny any removable storage to be used by users
+<div align="left">
+  <table>
+    <tr>
+      <td><img width="400" src="https://github.com/connorpj-tech/Implementing-Group-Policy/blob/main/Removable%20Storage%20Access.png"/></td>
+      <td><img width="400" src="https://github.com/connorpj-tech/Implementing-Group-Policy/blob/main/Enable%20Deny%20All%20Access.png"/></td>
+    </tr>
+       <td align="center"><b>Removable Storage Access</b></td>
+       <td align="center"><b>Deny All Access</b></td>
+       </tr>
+  </table>
+</div>
+
