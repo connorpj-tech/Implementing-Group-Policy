@@ -1,7 +1,7 @@
 <h1>Implementing Security Group Policy</h1>
 
 <h2>Objective</h2>
-This SOP will layout security group polices for workstations and implement basic security for the Windows Server and Clients associated with the Active Directory Domain Controller
+This SOP will layout security group polices for workstations that are associated with an Active Directory Domain Controller
 <h2>Utilities Used</h2>
 
 - <b> Microsoft Azure</b>
@@ -84,7 +84,25 @@ This SOP will layout security group polices for workstations and implement basic
     </tr>
        <td align="center"><b>Removable Storage Access</b></td>
        <td align="center"><b>Deny All Access</b></td>
-       </tr>
+       </tr> 
   </table>
 </div>
+
+**5. Verify and Enable Securtiy Policies**
+
+- <b> Select Default Domain Policy.  Click on the settings tab and select show all
+- <b> Scroll down to the account policies and administrative templates to verify all polices are correct
+- <b> Right click on Default Domain Policy and click on enforce to enable 
+<div align="left">
+  <table>
+    <tr>
+      <td><img width="400" src="https://github.com/connorpj-tech/Implementing-Group-Policy/blob/main/Verify%20Policy.png"/></td>
+      <td><img width="400" src="https://github.com/connorpj-tech/Implementing-Group-Policy/blob/main/Enforce.png"/></td>
+    </tr>
+       <td align="center"><b>Verify Security Policies</b></td>
+       <td align="center"><b>Enforce Policy</b></td>
+       </tr> 
+  </table>
+</div>
+
 
